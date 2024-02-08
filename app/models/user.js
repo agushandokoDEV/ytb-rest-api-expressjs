@@ -50,10 +50,10 @@ module.exports = (sequelize, DataTypes) => {
     //   allowNull: false,
     //   defaultValue:'pending'
     // },
-    role_id: {
-      type:DataTypes.UUID,
-      allowNull: false,
-    },
+    // role_id: {
+    //   type:DataTypes.UUID,
+    //   allowNull: false,
+    // },
     // created_at: {
     //   type: DataTypes.DATE,
     //   allowNull: false,
