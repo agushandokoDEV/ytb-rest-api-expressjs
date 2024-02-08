@@ -12,7 +12,7 @@
   },
   "test": {
     "username": "postgres",
-    "password": "42663BA6eCea3e3-gGGadd21*bgBffg2",
+    "password": "root",
     "database": "olshop",
     "host": "127.0.0.1",
     "dialect": "postgres",
@@ -23,11 +23,11 @@
   },
   "production": {
     "username": "postgres",
-    "password": "42663BA6eCea3e3-gGGadd21*bgBffg2",
+    "password": "1gBBFG3cDb3CGgD3E6*D62d*G-3GbGE3",
     "database": "railway",
-    "host": "monorail.proxy.rlwy.net",
+    "host": "viaduct.proxy.rlwy.net",
     "dialect": "postgres",
-    "port":"51231",
+    "port":"56108",
     "define": {
       "timestamps": true
     }

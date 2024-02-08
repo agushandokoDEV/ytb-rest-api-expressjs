@@ -45,11 +45,11 @@ module.exports = (sequelize, DataTypes) => {
     last_login: {
       type: DataTypes.DATE,
     },
-    status: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      defaultValue:'pending'
-    },
+    // status: {
+    //   type: DataTypes.STRING,
+    //   allowNull: false,
+    //   defaultValue:'pending'
+    // },
     role_id: {
       type:DataTypes.UUID,
       allowNull: false,
