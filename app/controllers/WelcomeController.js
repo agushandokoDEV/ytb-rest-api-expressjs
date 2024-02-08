@@ -1,7 +1,7 @@
 // const express = require('express');
 // const router  = express.Router();
 
-const { successResponse } = require('../../utils/jsonResponse');
+const { successResponse, errorResponse } = require('../../utils/jsonResponse');
 const User = require('../models').User;
 
 const WelcomeController = {
@@ -9,8 +9,12 @@ const WelcomeController = {
         successResponse(res,"Welcome Railway");
     },
     listusers: async (req,res)=>{
-        let list = await User.findAll();
-        successResponse(res,list);
+        try {
+            let list = await User.findAll();
+            successResponse(res,list);
+        } catch (error) {
+            errorResponse(res,error.message)
+        }
     }
 }
 module.exports = WelcomeController;
