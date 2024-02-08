@@ -6,7 +6,7 @@ const User = require('../models').User;
 
 const WelcomeController = {
     index:(req,res)=>{
-        successResponse(res,"Welcome");
+        successResponse(res,"Welcome Railway");
     },
     listusers: async (req,res)=>{
         let list = await User.findAll();
