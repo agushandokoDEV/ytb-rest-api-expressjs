@@ -1,9 +1,9 @@
 {
   "development": {
-    "username": "postgres.ccvncpfsbpaoryfdxmub",
-    "password": "AdminGarahijab1",
-    "database": "postgres",
-    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
+    "username": "postgres",
+    "password": "root",
+    "database": "olshop",
+    "host": "127.0.0.1",
     "dialect": "postgres",
     "port":"5432",
     "define": {
@@ -16,15 +16,16 @@
     "database": "olshop",
     "host": "127.0.0.1",
     "dialect": "postgres",
+    "port":"5432",
     "define": {
       "timestamps": true
     }
   },
   "production": {
-    "username": "postgres.ccvncpfsbpaoryfdxmub",
-    "password": "AdminGarahijab1",
-    "database": "postgres",
-    "host": "aws-0-ap-southeast-1.pooler.supabase.com",
+    "username": "postgres",
+    "password": "root",
+    "database": "olshop",
+    "host": "127.0.0.1",
     "dialect": "postgres",
     "port":"5432",
     "define": {
