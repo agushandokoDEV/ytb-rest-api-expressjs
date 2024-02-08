@@ -23,11 +23,11 @@
   },
   "production": {
     "username": "postgres",
-    "password": "1gBBFG3cDb3CGgD3E6*D62d*G-3GbGE3",
+    "password": "root",
     "database": "railway",
-    "host": "viaduct.proxy.rlwy.net",
+    "host": "127.0.0.1",
     "dialect": "postgres",
-    "port":"56108",
+    "port":"5432",
     "define": {
       "timestamps": true
     }
