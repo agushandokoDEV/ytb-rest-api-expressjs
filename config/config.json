@@ -23,11 +23,11 @@
   },
   "production": {
     "username": "postgres",
-    "password": "root",
+    "password": "CBEB6g1dcF2-DA5bb*b6E2cB3D5A4--2",
     "database": "railway",
-    "host": "127.0.0.1",
+    "host": "roundhouse.proxy.rlwy.net",
     "dialect": "postgres",
-    "port":"5432",
+    "port":"17808",
     "define": {
       "timestamps": true
     }
